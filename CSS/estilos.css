@@ -57,5 +57,48 @@ body {
     background-color: #d90429;
     color: #2b2d42;
     transition: ease-in 0.3s;
+}
 
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    align-items: center;
+}
+
+.main img {
+    width: 350px;
+    height: 510px;
+    border: 7px solid #d90429;
+    margin-left: 20px;
+}
+
+.main h1 {
+    font-size: 3em;
+}
+
+.main p {
+    line-height: 1.5em;
+    text-align:justify;
+}
+
+.main span {
+    color: #d90429;
+}
+
+.main .download-cv {
+    padding: 10px 20px;
+    background-color: #d90429;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px rgba(131, 54, 54, 0.69);
+}
+
+.main .download-cv:hover {
+    background-color: #fff;
+    box-shadow: none;
 }
