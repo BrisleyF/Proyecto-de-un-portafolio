@@ -2,12 +2,11 @@
 
     .wrapper {
         width: 90%;
-        
         margin: 0 auto;
     }
 
     .navbar {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
     }
 
@@ -54,7 +53,6 @@
         margin: 0 auto;
     }
 
-
     .contact-section {
         width: 90%;
         margin: 0 auto;
@@ -64,22 +62,6 @@
         width: 90%;
         margin: 0 auto;
     }
-
-    /*
-    
-    
-
-    
-
-    
-
-   
-
-    .contact-section .contact-headings {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }*/
 }
 
 @media only screen and (max-width: 990px) {
@@ -91,7 +73,6 @@
     .card .proyect-details {
         padding: 8px 15px;
     }
-
 }
 
 @media only screen and (max-width: 915px) {
@@ -109,9 +90,26 @@
 }
 
 @media only screen and (max-width: 772px) {
-    .navbar .menu {
-        display: none;
+    /*MENU OCULTO*/
+    .navbar {
+        position: relative;
     }
+
+    .navbar .menu {
+        position: absolute;
+        width: 90%;
+        height: 50vh;
+        display: grid;
+        align-items: center;
+        background-color: #2b2d42;
+        margin-top: 1.5em;
+        transform: translatey(-110%)
+    }
+
+    .navbar .menu-toggle {
+        transform: translatey(0%)
+    }
+    /* */
 
     .menu-bar .fa-solid {
         display: block;
@@ -299,12 +297,6 @@
         display: none;
     }
 
-    /* portfolio */
-
-    /*.portfolio {
-        display: none;
-    }*/
-
     .portfolio-headings {
         padding: 2em;
     }
@@ -345,7 +337,7 @@
     /* contacto*/
 
     .contact-headings{
-        padding: 0;
+        padding: 1.5em;
     }
 
     .contact-headings h2 {
@@ -366,8 +358,8 @@
     }
 
     .footer-content h5,
-.social-network i {
-    font-size: 1em;
-}
+    .social-network i {
+        font-size: 1em;
+    }
 }
 
