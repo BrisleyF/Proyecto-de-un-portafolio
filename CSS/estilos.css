@@ -147,14 +147,12 @@ body {
 /* portfolio */
 .portfolio {
     width: 100vw;
-    height: 70vh;
     color: #fff;
     background-color: #2b2d42;
 }
 
 .portfolio-headings {
-    width: 100vw;
-    padding: 5em;
+    padding: 3em;
 }
 
 .portfolio-headings  h2 {
@@ -163,7 +161,6 @@ body {
 
 .portfolio .container {
     width: 80vw;
-    height: 40vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -226,12 +223,11 @@ body {
 }
 
 .contact-headings h2 {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .contact-section {
     background-color: #2b2d42;
-    padding: 0 2em 2em 2em;
     color: #fff;
     width: 100vw;
 }
