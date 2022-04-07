@@ -34,8 +34,9 @@ body {
 
 .menu {
     display: flex;
-    width: 50%;
     justify-content: space-around;
+    width: 50%;
+    
 }
 
 .menu-bar .fa-solid {
@@ -45,7 +46,6 @@ body {
 
 .menu li {
     list-style: none;
-
 }
 
 .menu a {
