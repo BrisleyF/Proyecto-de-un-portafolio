@@ -8,6 +8,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -35,6 +36,11 @@ body {
     display: flex;
     width: 50%;
     justify-content: space-around;
+}
+
+.menu-bar .fa-solid {
+    color: #fff;
+    display: none;
 }
 
 .menu li {
@@ -103,6 +109,7 @@ body {
     box-shadow: none;
 }
 
+/* about me*/
 .about {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -137,9 +144,10 @@ body {
     margin-bottom: 1em;
 }
 
+/* portfolio */
 .portfolio {
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     color: #fff;
     background-color: #2b2d42;
 }
@@ -155,7 +163,7 @@ body {
 
 .portfolio .container {
     width: 80vw;
-    height: 80vh;
+    height: 40vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -212,7 +220,10 @@ body {
     margin-top: 1em;
 }
 
-/* C o n t a c t o */
+/* Contacto */
+.contact-headings {
+    padding: 3em;
+}
 
 .contact-headings h2 {
     font-size: 3em;
@@ -220,7 +231,7 @@ body {
 
 .contact-section {
     background-color: #2b2d42;
-    padding: 3em;
+    padding: 0 2em 2em 2em;
     color: #fff;
     width: 100vw;
 }
@@ -275,6 +286,7 @@ body {
     box-shadow: none;
 }
 
+/* footer */
 .footer {
     width: 100vw;
     height: 200px;
